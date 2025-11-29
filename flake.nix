@@ -18,9 +18,7 @@
         ...
       }:
       {
-        imports = [
-          inputs.hercules-ci-effects.flakeModule
-        ];
+        imports = [ inputs.hercules-ci-effects.flakeModule ];
 
         systems = [
           "x86_64-linux"
